@@ -1,6 +1,8 @@
 
+const readLine = require('readline-sync');
 
-let lines = gets().split('\n');
+let lines = readLine.question('digite o total de números: ').split('\n');
+
 
 let line = lines.shift().split(" ");
 let inicio = parseInt(line[0]);
